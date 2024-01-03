@@ -220,10 +220,7 @@ table {
 /* ------------------- */
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
-}
-
-.wrapper {
+  font-family: Arial, sans-serif;
   border-top: #46aec6 5px solid;
 }
 
@@ -269,7 +266,7 @@ body {
 }
 
 .social a:hover i {
-  color: #644939;
+  color: #396264;
 }
 
 .spacer {
@@ -284,4 +281,9 @@ a {
 
 a:hover {
   color: #396264;
+}
+
+.logo img {
+  border-radius: 50%;
+  border: #46aec6 5px solid;
 }
