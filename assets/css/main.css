@@ -287,3 +287,14 @@ a:hover {
   border-radius: 50%;
   border: #46aec6 5px solid;
 }
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: #252525;
+    color: #e1e1e1;
+  }
+
+  .social a i  {
+    color: #469bc6;
+  }
+}
